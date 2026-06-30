@@ -1,0 +1,3 @@
+Godzin prozin, 100, 25
+jooji matadorzin, 80, 45
+vinin noobzin, 150, 10 
