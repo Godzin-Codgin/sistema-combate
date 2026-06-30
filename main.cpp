@@ -32,6 +32,7 @@ ini1Vida -= danoNoIni1;
 cout << heroiNome << " atacou " << ini1Nome << " causando " << danoNoIni1 << " de dano!" << endl;
 mostrarStatus(ini1Nome, ini1Vida, ini1Ataque);
 
+cout<<"=================================="<<endl;
 
 int danoNoHeroi = calcularDano(ini2Ataque, 5);
 heroiVida -= danoNoHeroi;
