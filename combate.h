@@ -6,4 +6,8 @@
 inline void mostrarStatus(std::string nome, int vida, int ataque) {
     std::cout << nome << " [Vida: " << vida << " | Ataque: " << ataque << "]" << std::endl;
 }
+inline int calcularCura(int vidaAtual, int pontosCura, int vidaMaxima) {
+    int novaVida = vidaAtual + pontosCura;
+    return (novaVida > vidaMaxima) ? vidaMaxima : novaVida;
+}
 #endif
