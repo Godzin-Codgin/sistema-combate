@@ -15,7 +15,7 @@ int main() {
     int ini1Ataque = 20;
 
     string ini2Nome = "vinin noobzin";
-    int ini2Vida = 50; //MEU DEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEUS,corrigi um bug muito bugado na vida do vinin noobzin
+    int ini2Vida = 50; //MEU DEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEUS,corrigi um bug muito bugado na vida do vinin noobzin 
     int ini2Ataque = 10;
 
     cout << "=== SIMULADOR DE COMBATE ===" << endl;
