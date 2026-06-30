@@ -39,6 +39,13 @@ heroiVida -= danoNoHeroi;
 cout << ini2Nome << " contra-atacou " << heroiNome << " causando " << danoNoHeroi << " de dano!" << endl;
 mostrarStatus(heroiNome, heroiVida, heroiAtaque);
 
+
+cout << "\n--- Fase de Recuperacao ---" << endl;
+heroiVida = calcularCura(heroiVida, 15, 120);
+cout << heroiNome << " usou uma pocao e recuperou vida!" << endl;
+mostrarStatus(heroiNome, heroiVida, heroiAtaque);
+
+
     system("pause");
     return 0;
 }
